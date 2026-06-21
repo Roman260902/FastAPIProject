@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from database.db import engine
-from database.models import Base
-from app.routers import transaction
+from backend.database.db import engine
+from backend.database.models import Base
+from backend.app.routers import transaction
 
 
 
